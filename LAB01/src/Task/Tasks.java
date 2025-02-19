@@ -44,7 +44,7 @@ public class Tasks {
         int a=input.InputInt();
         return (int)Math.sqrt(a);
     }
-    public boolean triangle(){
+    public void triangle(){
         System.out.println("Podaj liczbe:");
         int x=input.InputInt();
         int y=input.InputInt();
@@ -67,7 +67,7 @@ public class Tasks {
             System.out.println("Z podanych boków NIE można stworzyć trójkąta.");
         }
 
-        return true;
+
     }
 
 

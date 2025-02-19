@@ -12,9 +12,6 @@ public class Input {
     }
     //metoda do wczytywania typu float
 
-    public float InputFloat() {
-        return scanner.nextFloat();
-    }
 
 
 }
