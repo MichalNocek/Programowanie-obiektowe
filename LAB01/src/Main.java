@@ -1,7 +1,13 @@
+import RunInput.Run;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
 
+        //obiekt klasy run
+        Run run = new Run();
+        run.RunTask();
+
+
+    }
 
 }
