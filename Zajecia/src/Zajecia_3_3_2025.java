@@ -1,11 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collection;
-
-public class Main {
-    public static void main(String[] args) {
-
-      //  int[] arr;//deklaracja tablicy
+ //  int[] arr;//deklaracja tablicy
       //  // arr = new int[5];//inicjowanie
 //      int [] arr = new int[5];
 //      int[] arr1 = {12,32,43,2,1,-23,12};
@@ -63,17 +56,3 @@ public class Main {
        // Integer[] arr ={1,2,3,4,2,1,3,2,12312,123,123,123};
      //   Arrays.sort(arr,Collection.reverseOrder());
         //wypełnianie tablic
-        int [] arr = new int[10];
-        //arr[0] = 1;
-        Arrays.fill(arr,0);
-        arr[0]=arr[1]=1;
-
-
-
-
-
-
-  }
-
-
-}
