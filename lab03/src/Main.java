@@ -1,3 +1,5 @@
+import static java.lang.Math.*;
+
 public class Main {
     public static void main(String[] args) {
       Input input = new Input();
@@ -27,6 +29,7 @@ public class Main {
             n--;
         }
         double srednia = suma/ilosc_uczoiow;
+        suma= round(suma);
         System.out.println(srednia);
 
 
