@@ -13,5 +13,4 @@ public class Input {
     //metoda do wczytywania typu float
 
 
-
 }
