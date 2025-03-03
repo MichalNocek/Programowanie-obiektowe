@@ -1,3 +1,7 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collection;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -19,10 +23,10 @@ public class Main {
 //      }
 //
 
-        int[][] macierz ={
-                {1,2,3,4},
-                {1,2,3,4,5,6}
-        };
+//        int[][] macierz ={
+//                {1,2,3,4},
+//                {1,2,3,4,5,6}
+//        };
 
 //
 //        for(int i=0;i<macierz.length;i++){
@@ -36,7 +40,36 @@ public class Main {
 //            }
 //        }
 //
+
+        //int[] arr={1,2,3,3,11123,2312,32323,123,123};
+
+
+//        //kopiowanie
+//        int[]arrcopy= new int[arr.length];
 //
+//        for(int i =0; i<arr.length;i++){
+//            arrcopy[i]=arr[i];
+//        }
+//
+//        System.arraycopy(arr,0,arrcopy,0,arr.length);
+//
+        //sortowanie
+        //Arrays.sort(arr);
+        //wyswietlanie!!
+        //Arrays.toStrint(arr)
+        //Arrays.sort(arr,1,3)-sortowanie od 1 do 3 elementu
+
+        //SORTOWANIE MALEJACE
+       // Integer[] arr ={1,2,3,4,2,1,3,2,12312,123,123,123};
+     //   Arrays.sort(arr,Collection.reverseOrder());
+        //wypełnianie tablic
+        int [] arr = new int[10];
+        //arr[0] = 1;
+        Arrays.fill(arr,0);
+        arr[0]=arr[1]=1;
+
+
+
 
 
 
