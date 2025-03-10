@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LAB01/LAB01.iml" filepath="$PROJECT_DIR$/LAB01/LAB01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab05/Lab05.iml" filepath="$PROJECT_DIR$/Lab05/Lab05.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programowanie-obiektowe.iml" filepath="$PROJECT_DIR$/.idea/Programowanie-obiektowe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zajecia/Zajecia.iml" filepath="$PROJECT_DIR$/Zajecia/Zajecia.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab02/lab02.iml" filepath="$PROJECT_DIR$/lab02/lab02.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zajecia/untitled/untitled.iml" filepath="$PROJECT_DIR$/Zajecia/untitled/untitled.iml" />
     </modules>
   </component>
 </project>
