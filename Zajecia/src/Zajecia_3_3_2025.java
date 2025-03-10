@@ -56,3 +56,12 @@
        // Integer[] arr ={1,2,3,4,2,1,3,2,12312,123,123,123};
      //   Arrays.sort(arr,Collection.reverseOrder());
         //wypełnianie tablic
+
+        //NOTATNI 10.03 2025
+
+
+
+
+
+
+
