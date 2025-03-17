@@ -61,4 +61,11 @@
 
 
 
+    //tablica adresów
+    Adres[] adresy = {
+    new Adres();
+    }
+
+
+
 
