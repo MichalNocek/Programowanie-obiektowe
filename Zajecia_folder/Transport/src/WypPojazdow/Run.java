@@ -27,8 +27,28 @@ public class Run {
         switch (wybor){
             case 1: vievPojazdy(pojazdy);
             case 2: wypozyczPojazd(pojazdy);
+            case 3: zwrocPojazd();
+            case 4: naladujPojazd();
+
         }
 
+
+
+
+    }
+
+    private static void naladujPojazd(List<Pojazd> pojazdy) {
+        System.out.println("Podaj ID pojazdu do naładowania");
+        String idLaduj = scanner.nextLine();
+        for(Pojazd p : pojazdy){
+            if(p.getID().equals(idLaduj) && p instanceof Elektryczny){
+
+            }
+        }
+    }
+
+    private static void zwrocPojazd() {
+        System.out.println("Podaj ID pojazdu do zwrócenia");
 
 
 
