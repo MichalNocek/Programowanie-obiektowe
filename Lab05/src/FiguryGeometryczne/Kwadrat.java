@@ -25,4 +25,5 @@ public class Kwadrat {
         this.boka = boka;
         this.bokb = bokb;
     }
+
 }
