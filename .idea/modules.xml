@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Zajecia_folder/31.03.2025/31.03.2025.iml" filepath="$PROJECT_DIR$/Zajecia_folder/31.03.2025/31.03.2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/LAB01/LAB01.iml" filepath="$PROJECT_DIR$/LAB01/LAB01.iml" />
       <module fileurl="file://$PROJECT_DIR$/LAB02/LAB02.iml" filepath="$PROJECT_DIR$/LAB02/LAB02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab04/Lab04.iml" filepath="$PROJECT_DIR$/Lab04/Lab04.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Zajecia_folder/Zajecia17_03/Zajecia17_03.iml" filepath="$PROJECT_DIR$/Zajecia_folder/Zajecia17_03/Zajecia17_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zajecia_folder/Zajecia/untitled/untitled.iml" filepath="$PROJECT_DIR$/Zajecia_folder/Zajecia/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zajecia_folder/31.03.2025/zadanie/zadanie.iml" filepath="$PROJECT_DIR$/Zajecia_folder/31.03.2025/zadanie/zadanie.iml" />
     </modules>
   </component>
 </project>
