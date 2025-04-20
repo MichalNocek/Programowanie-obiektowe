@@ -32,5 +32,7 @@ public abstract class Pojazd {
     public abstract double obliczkoszt (int liczbagodzin);
 
 
-
+    public Object getID() {
+        return id;
+    }
 }
