@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ListTransferGUI"
+      initial-scale="1.0" row-count="6" column-count="4" same-row-height="false" same-column-width="false"
+      hgap="-1" vgap="-1">
+    <grid id="mainPanel" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4"
+          same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+            <xy x="20" y="20" width="600" height="400"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+            <component id="list1Label" class="javax.swing.JLabel">
+                <constraints>
+                    <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0"
+                          anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="Lista 1:"/>
+                </properties>
+            </component>
+            <component id="list2Label" class="javax.swing.JLabel">
+                <constraints>
+                    <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0"
+                          anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="Lista 2:"/>
+                </properties>
+            </component>
+            <scrollpane id="list1ScrollPane">
+                <constraints>
+                    <grid row="1" column="0" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7"
+                          anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                    <component id="list1" class="javax.swing.JList" binding="list1">
+                        <constraints/>
+                        <properties/>
+                    </component>
+                </children>
+            </scrollpane>
+            <scrollpane id="list2ScrollPane">
+                <constraints>
+                    <grid row="1" column="3" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7"
+                          anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                    <component id="list2" class="javax.swing.JList" binding="list2">
+                        <constraints/>
+                        <properties/>
+                    </component>
+                </children>
+            </scrollpane>
+            <component id="moveRightButton" class="javax.swing.JButton" binding="moveRightButton">
+                <constraints>
+                    <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3"
+                          anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="&gt;"/>
+                </properties>
+            </component>
+            <component id="moveAllRightButton" class="javax.swing.JButton" binding="moveAllRightButton">
+                <constraints>
+                    <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3"
+                          anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="&gt;&gt;"/>
+                </properties>
+            </component>
+            <component id="moveLeftButton" class="javax.swing.JButton" binding="moveLeftButton">
+                <constraints>
+                    <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3"
+                          anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="&lt;"/>
+                </properties>
+            </component>
+            <component id="moveAllLeftButton" class="javax.swing.JButton" binding="moveAllLeftButton">
+                <constraints>
+                    <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3"
+                          anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                    <text value="&lt;&lt;"/>
+                </properties>
+            </component>
+        </children>
+    </grid>
+</form>
